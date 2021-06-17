@@ -74,7 +74,7 @@ const Field_Courses = () => {
           <Landing />
           <div className="fields">
             <h2 className="title">
-              مجال {ThisPath.replace("/", "").replace("-", "")}
+              مجال {ThisPath.replace("/", "").replace("-", " ")}
             </h2>
             <div className="container">
               <div className="fields_list">
