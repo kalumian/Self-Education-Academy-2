@@ -27,7 +27,7 @@ const About_Us = () => {
             وهدفي الاسمى  تحريرها .. وهذا ما أعمل عليه
             <br />
             <br /> لا تتردد عند رغبتك بالتواصل معي لأي امرٍ كان ...
-            <Link> قنوات التواصل</Link>
+            <Link to="/contact"> قنوات التواصل</Link>
           </p>
           <div className="links text-center">
             <Link className="mx-2 btn btn-outline-primary mt-5" to="/">

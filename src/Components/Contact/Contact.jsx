@@ -129,7 +129,7 @@ const Contact = () => {
               <input className="submit-btn" type="submit" value="إرسال" />
             </div>
             <div className="form-field col-lg-12 text-center">
-              <a href="" className="btn btn-outline-primary mx-2">
+              <a href="/https://twitter.com/kalumian1" className="btn btn-outline-primary mx-2">
                 <i className="fab fa-twitter"></i>
               </a>
               <a href="" className="btn btn-outline-danger mx-2">
