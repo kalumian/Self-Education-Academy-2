@@ -24,7 +24,7 @@ const Field_Courses = () => {
       ? (document.title = `أكاديمية تعلّم ذاتياً | مجال ${ThisPath.replace(
           "/",
           ""
-        ).replace("-", "")}`)
+        ).replace("-", " ")}`)
       : (document.title = "هذه الصفحة غير موجودة 404");}
   });
 
