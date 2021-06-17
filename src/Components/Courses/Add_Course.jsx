@@ -110,7 +110,7 @@ const Add_Course = () => {
               <select
                 onChange={handleSelect}
                 className="form-select"
-                aria-label="Default select example"
+                aria-label="Default select example "
               >
                 <option selected>اختر المجال المناسب</option>
                 {fields.map((i) => {
@@ -194,7 +194,7 @@ const Add_Course = () => {
             </div>
             <div className="form-field col-lg-12 text-center">
               <a
-                href="/https://twitter.com/kalumian1"
+                href="https://twitter.com/kalumian1"
                 className="btn btn-outline-primary mx-2"
               >
                 <i className="fab fa-twitter"></i>
