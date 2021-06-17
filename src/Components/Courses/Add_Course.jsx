@@ -36,21 +36,22 @@ const Add_Course = () => {
 
     if (
       input.color &&
-      input.dec <= 150 &&
+      input.dec &&
+      input.dec.length <= 150 &&
       input.image &&
       input.title &&
       input.url &&
-      field &&
-      plateform
+      field.field &&
+      plateform.plateform
     ) {
       addCourses(input, plateform, field);
       setMessage(
-        "شكراً لكم, تم الارسال بنجاح سيتم المراجعة والقيام بالأمر اللازم , طاب يومك ;"
+        "شكراً لكم, تم الارسال بنجاح سيتم المراجعة والقيام بالأمر اللازم , طاب يومك "
       );
       setInput(InitialState);
     } else {
       setMessage(
-        "فضلاً تأكد من جميع إدخال البيانات في جميع الحقول والتأكد من إختيار منصةالدورة !!"
+        "فضلاً تأكد من جميع إدخال البيانات في جميع الحقول والتأكد من إختيار منصة الدورة !!"
       );
     }
   };
