@@ -1,0 +1,111 @@
+:root {
+  --login-socende-color-: #fff;
+}
+/* Right Section */
+.content-login {
+  margin: 8%;
+  background-color: #fff;
+  padding: 4rem 1rem 4rem 1rem;
+  box-shadow: 0 0 5px 5px rgb(0 0 0 / 10%);
+}
+
+.signin-text {
+  font-style: normal;
+  font-weight: 600 !important;
+}
+
+.form-control {
+  display: block;
+  width: 80%;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  border: var(--min-color-) !important;
+  border-style: solid !important;
+  border-width: 0 0 1px 0 !important;
+  padding: 0px !important;
+  color: #495057;
+  height: auto;
+  border-radius: 0;
+  background-color: var(--login-socende-color-);
+  background-clip: padding-box;
+}
+@media (max-width: 664px) {
+  .form-control {
+    width: 100%;
+}
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: var(--login-socende-color-);
+  border-color: var(--login-socende-color-);
+  outline: none;
+  box-shadow: none;
+}
+.btn-class {
+  border-color: var(--min-color-);
+  color: var(--min-color-);
+}
+.btn-class:hover {
+  background-color: var(--min-color-);
+  color: var(--login-socende-color-);
+}
+.inputs-wrong {
+  height: 11px;
+  color: red;
+  font-size: 11px;
+  font-weight: 400;
+}
+a.password-forget {
+    font-size: 12px;
+    display: block;
+    margin: 10px 0 0 0;
+}
+/* Left Section */
+.info {
+  height: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+span.col-line {
+  display: block;
+  width: 2px;
+  height: 100%;
+  background-color: var(--min-color-);
+}
+@media (max-width: 765px) {
+    span.col-line {
+        display: none;
+    }
+}
+
+.info-content {
+  align-items: center;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-direction: column;
+}
+@media (max-width: 765px) {
+    .info-content {
+    margin-bottom: 20px;
+    }
+}
+.login-icon {
+  font-size: 100px;
+}
+.advices-list {
+  justify-content: center;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.advices-list li {
+  font-size: 16px;
+  margin: 1px 25px;
+}

@@ -1,0 +1,60 @@
+.content-forgetpassword {
+  max-width: 380px;
+  margin: 8%auto;
+  background-color: #fff;
+  padding: 4rem 0;
+  box-shadow: 0 0 5px 5px #53a2eb42;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.content-forgetpassword i {
+  font-size: 70px;
+  margin-bottom: 25px;
+}
+.content-forgetpassword h3 {
+  margin-bottom: 15px;
+}
+.content-forgetpassword h4 {
+  font-size: 13px;
+  margin-bottom: 30px;
+}
+.content-forgetpassword form input {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  border: var(--min-color-) !important;
+  border-style: solid !important;
+  border-width: 0 0 1px 0 !important;
+  padding: 0px !important;
+  color: #495057;
+  height: auto;
+  border-radius: 0;
+  background-color: var(--second-color-);
+  background-clip: padding-box;
+}
+
+.content-forgetpassword form input:focus {
+  color: #495057;
+  background-color: var(--second-color-);
+  border-color: var(--second-color-);
+  outline: none;
+  box-shadow: none;
+}
+
+.content-forgetpassword button {
+  border: var(--min-color-) solid 1px;
+  color: #fff;
+  background-color: var(--min-color-);
+}
+.content-forgetpassword button:hover {
+  background-color: #fff;
+}
+
+.inputs-sucss{
+    color: rgb(32, 226, 136);
+}
