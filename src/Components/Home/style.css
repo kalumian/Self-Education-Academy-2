@@ -240,6 +240,7 @@ img.logo-in-hero {
 .Video_section iframe {
   min-height: 300px;
   width: 40%;
+  margin-top: 10px;
 }
 .box-of-text {
   height: 300px;
@@ -261,7 +262,7 @@ img.logo-in-hero {
   .Video_section .container {
     flex-direction: column-reverse;
   }
-  .Video_section video {
+  .Video_section iframe {
     width: 100%;
   }
   .box-of-text {

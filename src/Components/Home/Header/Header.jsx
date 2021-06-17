@@ -69,7 +69,7 @@ const Header = ({ user }) => {
                   title={<i className="fas fa-user"></i>}
                   listOptions={[
                     { id: 1, title: user.email, link: "" },
-                    { id: 2, title: "المفضلة قائمة المفضلة", link: "#" },
+                    { id: 2, title: " قائمة المفضلة", link: "#" },
                     { id: 3, title: "قائمة المشاهدة لاحقاً", link: "#" },
                     {
                       id: 4,
